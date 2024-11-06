@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Clock className="h-4 w-4 text-yellow-500" />
-                <span>Seg - Ter: 9h às 18h</span>
+                <span>Seg - Ter: Fechado</span>
               </li>
               <li className="ml-6">Qua - Sáb: 9h às 23h</li>
               <li className="ml-6">Dom: 9h às 22h</li>

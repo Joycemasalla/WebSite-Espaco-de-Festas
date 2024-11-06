@@ -100,7 +100,7 @@ const About: React.FC = () => {
 
         <Facility
           title="Campo de Futebol"
-          description="Campo society com grama sintética de alta qualidade, ideal para confraternizações esportivas e eventos ao ar livre."
+          description="Campo com grama de alta qualidade, ideal para confraternizações esportivas e eventos ao ar livre."
           imageUrl="https://images.unsplash.com/photo-1529900748604-07564a03e7a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
           reverse={false}
         />

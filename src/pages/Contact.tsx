@@ -93,7 +93,7 @@ const Contact = () => {
                 Horário de Funcionamento
               </h3>
               <p className="text-gray-600">
-                Segunda e Terça: 9h às 18h<br />
+                Segunda e Terça: Fechado<br />
                 Quarta a Sábado: 9h às 23h <br />
                 Domingo: 9h às 22h
 
