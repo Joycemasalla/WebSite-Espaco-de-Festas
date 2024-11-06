@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 const WhatsAppButton = () => {
   const [showScrollToTop, setShowScrollToTop] = useState(false); // Estado para controlar a visibilidade do botão de rolar para o topo
 
-  const phoneNumber = '5511999999999'; // Substitua pelo número real
+  const phoneNumber = '5532988523192'; // Substitua pelo número real
   const message = 'Olá! Gostaria de mais informações sobre o Espaço Imperial.';
 
   const scrollToTop = () => {
