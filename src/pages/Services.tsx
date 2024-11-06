@@ -10,22 +10,22 @@ interface ServiceCardProps {
   price: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description, features, price }) => (
+ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description /*, features, price*/ }) => (
   <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
     <div className="flex items-center mb-4">
       {icon}
       <h3 className="text-2xl font-bold ml-3">{title}</h3>
     </div>
     <p className="text-gray-600 mb-6">{description}</p>
-    <ul className="space-y-2 mb-6">
+    {/* <ul className="space-y-2 mb-6">
       {features.map((feature: string, index: number) => (
         <li key={index} className="flex items-center">
           <span className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></span>
           {feature}
         </li>
       ))}
-    </ul>
-    <p className="text-lg font-bold text-yellow-500">{price}</p>
+    </ul> */}
+    {/* <p className="text-lg font-bold text-yellow-500">{price}</p> */}
   </div>
 );
 
