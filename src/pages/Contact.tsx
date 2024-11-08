@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://wa.me/55988523192"
+              href="https://wa.me/988523192"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-green-500 text-white rounded-md hover:bg-green-600 transition-colors duration-300"
