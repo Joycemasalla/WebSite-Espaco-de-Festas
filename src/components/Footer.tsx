@@ -64,7 +64,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Espaço Imperial. Todos os direitos reservados.</p>
-          <p> Desenvolvido por Joyce Masalla</p>
+          <p> Desenvolvido por <b><i>Joyce Masalla</i></b></p>
         </div>
       </div>
     </footer>
